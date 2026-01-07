@@ -1,0 +1,129 @@
+[
+  {
+    "id": "00001-project-setup.md",
+    "title": "Project Setup and CLI Skeleton",
+    "description": "Create the Python project scaffold, config loading, and logging utilities. Add a minimal CLI entry point to run the agent.",
+    "priority": "High",
+    "depends_on": [],
+    "status": "done",
+    "path": ".ai/board/tasks/00001-project-setup.md",
+    "features": [
+      "Foundation and Runtime"
+    ]
+  },
+  {
+    "id": "00002-lesson-planner.md",
+    "title": "Pedagogical Planner",
+    "description": "Implement the lesson planning module and prompt templates that convert a user question into a short, structured teaching plan.",
+    "priority": "High",
+    "depends_on": [
+      ".ai/board/tasks/00001-project-setup.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00002-lesson-planner.md",
+    "features": [
+      "Pedagogical Planning"
+    ]
+  },
+  {
+    "id": "00003-llm-core.md",
+    "title": "LLM Reasoning Core",
+    "description": "Implement the LLM interface to generate explanations, code examples, and follow-up questions based on the lesson plan.",
+    "priority": "High",
+    "depends_on": [
+      ".ai/board/tasks/00001-project-setup.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00003-llm-core.md",
+    "features": [
+      "LLM Teaching Core"
+    ]
+  },
+  {
+    "id": "00004-cli-flow.md",
+    "title": "CLI Teaching Flow Output",
+    "description": "Wire the planner and LLM core into a CLI command that outputs lesson plan, explanation, code, and diagram in a single run.",
+    "priority": "High",
+    "depends_on": [
+      ".ai/board/tasks/00002-lesson-planner.md",
+      ".ai/board/tasks/00003-llm-core.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00004-cli-flow.md",
+    "features": [
+      "Teaching Flow Orchestration (CLI)"
+    ]
+  },
+  {
+    "id": "00005-tool-router-file-ops.md",
+    "title": "Tool Router and File Operations",
+    "description": "Implement tool routing for create file, write code, and open file actions with explicit safety confirmations.",
+    "priority": "High",
+    "depends_on": [
+      ".ai/board/tasks/00004-cli-flow.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00005-tool-router-file-ops.md",
+    "features": [
+      "Tool Routing and File Operations"
+    ]
+  },
+  {
+    "id": "00006-vscode-automation.md",
+    "title": "VS Code Automation",
+    "description": "Add OS-level automation to open VS Code, focus the editor, and type code step-by-step with a manual fallback path.",
+    "priority": "Medium",
+    "depends_on": [
+      ".ai/board/tasks/00005-tool-router-file-ops.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00006-vscode-automation.md",
+    "features": [
+      "IDE Automation (VS Code)"
+    ]
+  },
+  {
+    "id": "00007-mermaid-diagrams.md",
+    "title": "Mermaid Diagram Output",
+    "description": "Generate a Mermaid diagram block from the lesson content and include it in CLI output and saved artifacts.",
+    "priority": "Medium",
+    "depends_on": [
+      ".ai/board/tasks/00003-llm-core.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00007-mermaid-diagrams.md",
+    "features": [
+      "Visual Explanations (Mermaid)"
+    ]
+  },
+  {
+    "id": "00008-logging-trace.md",
+    "title": "Structured Logging and Traces",
+    "description": "Add structured logging and a JSON trace output that records inputs, decisions, and actions for replay and debugging.",
+    "priority": "Medium",
+    "depends_on": [
+      ".ai/board/tasks/00001-project-setup.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00008-logging-trace.md",
+    "features": [
+      "Observability and Traceability"
+    ]
+  },
+  {
+    "id": "00009-demo-script.md",
+    "title": "Demo Script and Sample Questions",
+    "description": "Create a scripted demo flow and sample C++ questions to showcase the end-to-end teaching experience.",
+    "priority": "Low",
+    "depends_on": [
+      ".ai/board/tasks/00006-vscode-automation.md",
+      ".ai/board/tasks/00007-mermaid-diagrams.md",
+      ".ai/board/tasks/00008-logging-trace.md"
+    ],
+    "status": "todo",
+    "path": ".ai/board/tasks/00009-demo-script.md",
+    "features": [
+      "Demo and Validation Assets"
+    ]
+  }
+]

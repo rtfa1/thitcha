@@ -1,0 +1,3 @@
+- Completed task 00001 project setup scaffold: added CLI, config loader, logging setup, metadata files, and smoke test.
+- Attempted `python -m pytest` but python was not available in the environment.
+- Unable to create git commit because git is not available in the environment.

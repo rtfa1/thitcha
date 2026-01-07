@@ -1,0 +1,8 @@
+model_provider: "openai"
+api_key_env: "OPENAI_API_KEY"
+features:
+  os_control: false
+  diagram_output: false
+logging:
+  level: "INFO"
+  directory: "logs"
