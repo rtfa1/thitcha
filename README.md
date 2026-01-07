@@ -1,28 +1,7 @@
-# AI Tutor CLI
+# Ralph Wiggum technique
 
-A minimal CLI scaffold for an AI tutoring assistant. This project will grow into an interactive teaching agent that can generate lesson plans, explanations, and code examples.
+All ai related content is inside the `.ai/` folder.
 
-## Install
+Thanks to [@mattpocockuk](https://www.youtube.com/@mattpocockuk) for the Youtube video [https://www.youtube.com/watch?v=_IK18goX4X8](https://www.youtube.com/watch?v=_IK18goX4X8) 
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
-```
-
-## Run
-
-```bash
-ai-tutor "Explain Python lists"
-```
-
-## Configuration
-
-Edit `config.yaml` and set the API key environment variable listed in `api_key_env`.
-
-## Development
-
-```bash
-pip install -e .[dev]
-pytest
-```
+And thanks to [@geoffreyhuntley](https://x.com/geoffreyhuntley) for the article [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
